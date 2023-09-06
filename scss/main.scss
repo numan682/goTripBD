@@ -1,0 +1,64 @@
+@import "./reset";
+
+@import "./blocks/header/header";
+@import "./blocks/nav/nav";
+@import "./blocks/user/user";
+@import "./blocks/mobail/nav-icon";
+@import "./blocks/mobail/mobail-nav";
+@import "./blocks/form/form";
+@import "./blocks/section/section";
+@import "./blocks/card/card";
+@import "./blocks/footer/footer";
+@import "./blocks/about/about";
+@import "./blocks/subscribe/subscribe";
+
+@import "./buttons/buttons";
+
+@import "./../css/custom-select.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #161414;
+}
+
+.header {
+    padding: 31px 0 100px;
+    height: 800px;
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url("./../img/header/header-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0 0 54px 54px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 32px;
+}
+
+.container--header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Main */
+.title-1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.main {
+    padding: 120px 0;
+    display: grid;
+    gap: 120px;
+}

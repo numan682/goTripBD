@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 54px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.nav-list__link {
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.nav-list__link--active {
+    opacity: 1;
+}

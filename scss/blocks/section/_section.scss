@@ -1,0 +1,23 @@
+.section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.section__cards {
+    display: grid;
+    gap: 32px;
+}
+
+.section__cards--6row {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.section__cards--4row {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.section__cards--2row {
+    grid-template-columns: repeat(2, 1fr);
+}

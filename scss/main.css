@@ -143,9 +143,7 @@ legend {
   -moz-column-gap: 30px;
 
        column-gap: 30px;
-          
- border-radius: 30px;  
- background:  linear-gradient(90deg,hsl(0, 0%, 46%) 10%,rgb(192, 163, 110) 100%);
+
 }
 
 .logo {
